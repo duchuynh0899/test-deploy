@@ -1,0 +1,101 @@
+body {
+    background: #fff;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+.profile-button:hover {
+/*    background: #682773*/
+}
+
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 12px;
+     
+}
+
+.add-experience:hover {
+    background: #21214E;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
+
+label{
+    padding-right: 60px;
+    padding-top: 5px;
+}
+
+.lock-account{
+    width: 162.77px;
+    text-align: center;
+}
+.lock-account:hover {
+    background: red!important;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
+.change-password:hover{
+    background: green!important;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
+.info {
+    padding-left: 200px;
+}
+
+.login-facebook-icon{
+	align-items: center;
+        text-decoration: none;
+	background-color: rgb(59, 89, 152);
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	display: flex;
+	font-family: Arial, sans-serif;
+	font-size: 23px;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant-caps: normal;
+	font-variant-east-asian: normal;
+	font-variant-ligatures: normal;
+	font-variant-numeric: normal;
+	font-weight: 400;
+	height: 48px;
+	justify-content: center;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: center;
+	text-indent: 0;
+	text-rendering: auto;
+	text-shadow: none;
+	text-transform: none;
+	width: 58px;
+	word-spacing: 0;
+	writing-mode: horizontal-tb;
+	-webkit-font-smoothing: antialiased;
+}

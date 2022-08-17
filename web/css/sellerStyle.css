@@ -1,0 +1,56 @@
+#seller {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#seller td {
+    text-align: center;
+    font-size: 15px;
+    font-weight: inherit;
+}
+
+#seller td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#seller tr:hover {background-color: #ddd;}
+
+#seller th {
+    font-size: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+}
+
+#club {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#club td {
+    text-align: center;
+    font-size: 15px;
+    font-weight: inherit;
+}
+
+#club td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#club tr:hover {background-color: #ddd;}
+
+#club th {
+    font-size: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+

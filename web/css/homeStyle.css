@@ -1,0 +1,4 @@
+ul#navbar-items li:hover {
+    color: white !important;
+    background-color: red !important;
+}

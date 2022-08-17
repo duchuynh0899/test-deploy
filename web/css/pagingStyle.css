@@ -1,0 +1,171 @@
+.image {
+    float: start;
+    height: 100%;
+    background-size: cover;
+}
+
+.description {
+    float: left;
+    height: 100%;
+}
+
+.button_edit {
+    float: end;
+    padding-left: 10px;
+}
+
+.button_edit1 {
+    float: end;
+    padding-left: 10px;
+}
+.image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.pagination {
+    justify-content: center;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: white;
+
+}
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #f2f2f2;
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: 22px;
+}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+.thumbnail1 {
+    overflow: visible; 
+}
+
+/* Thumbnail */
+.thumbnail1 img {
+    padding: 0px;
+    transition-duration: 0.5s;
+        /* Safari & Google Chrome */
+        -webkit-transition-duration: 0.5s; 
+        /* Mozilla Firefox */
+        -moz-transition-duration: 0.5s; 
+        /* Opera */
+        -o-transition-duration: 0.5s;
+        /* IE 9 */
+        -ms-transition-duration: 0.5s;
+}
+
+/* Hover chuá»™t vÃ o thumbnail */
+.thumbnail1 img:hover {
+    position: relative;
+    z-index: 999;
+    transform: scale(4);
+        /* Safari & Google Chrome */
+        -webkit-transform: scale(4);
+        /* Mozilla Firefox */
+        -moz-transform: scale(4); 
+        /* Opera */
+        -o-transform: scale(4);
+        /* IE 9 */
+        -ms-transform: scale(4);
+    cursor: pointer; 
+}
+
+.thumbnail2 {
+    overflow: visible; 
+    padding: 0px;
+}
+
+/* Thumbnail */
+.thumbnail2 img {
+    padding: 0px;
+    transition-duration: 0.5s;
+        /* Safari & Google Chrome */
+        -webkit-transition-duration: 0.5s; 
+        /* Mozilla Firefox */
+        -moz-transition-duration: 0.5s; 
+        /* Opera */
+        -o-transition-duration: 0.5s;
+        /* IE 9 */
+        -ms-transition-duration: 0.5s;
+}
+
+/* Hover chuá»™t vÃ o thumbnail */
+.thumbnail2 img:hover {
+    position: relative;
+    z-index: 999;
+    transform: scale(1.5);
+        /* Safari & Google Chrome */
+        -webkit-transform: scale(1.5);
+        /* Mozilla Firefox */
+        -moz-transform: scale(1.5); 
+        /* Opera */
+        -o-transform: scale(1.5);
+        /* IE 9 */
+        -ms-transform: scale(1.5);
+    cursor: pointer; 
+}
+
+.labels {
+    font-size: 20px;
+}
+
+/* Khung chứa thumbnail */
+.thumbnail {
+    width: 100%;
+    height: 100%; 
+    overflow: visible; 
+    padding: 0px;
+}
+ 
+/* Thumbnail */
+.thumbnail img {
+    padding: 0px;
+    transition-duration: 0.5s;
+        /* Safari & Google Chrome */
+        -webkit-transition-duration: 0.5s; 
+        /* Mozilla Firefox */
+        -moz-transition-duration: 0.5s; 
+        /* Opera */
+        -o-transition-duration: 0.5s;
+        /* IE 9 */
+        -ms-transition-duration: 0.5s;
+}
+         
+/* Hover chuột vào thumbnail */
+.thumbnail img:hover {
+    position: relative;
+    z-index: 999;
+    transform: scale(1.2);
+        /* Safari & Google Chrome */
+        -webkit-transform: scale(1.2);
+        /* Mozilla Firefox */
+        -moz-transform: scale(1.2); 
+        /* Opera */
+        -o-transform: scale(1.2);
+        /* IE 9 */
+        -ms-transform: scale(1.2);
+    cursor: pointer; 
+}

@@ -1,0 +1,18 @@
+.fa-lock::after{
+    content:'';
+    position:absolute;
+    width:75px;
+    height:2px;
+    background-color:purple;
+    top:15px;
+    right:-24px;
+}
+.fa-list::after{
+    content:'';
+    position:absolute;
+    width:60px;
+    height:2px;
+    background-color:purple;
+    top:15px;
+    right:-30px; 
+}
